@@ -1,7 +1,7 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
-import sidebar from './components/sidebar/sidebar.vue'
+import NavMenu from './components/NavMenu.vue'
 </script>
 
 <template>
@@ -11,10 +11,10 @@ import sidebar from './components/sidebar/sidebar.vue'
     <div class="wrapper">
       <HelloWorld msg="Coming Soon!" />
     </div>
+    <NavMenu />
   </header>
 
   <main>
-    <sidebar />
   </main>
 </template>
 
